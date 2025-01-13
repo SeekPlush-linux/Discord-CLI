@@ -15,11 +15,13 @@ It has the most necessary features for a usable Discord client, like:
   2. Your Discord token
   3. Your Discord username
 
-But first, make sure to clone this repo, preferrably with the command `git clone`.
+But first, make sure to clone this repo, preferrably with the command `git clone` in the terminal.
 
 Now, if you don't know already how to get your Discord token, go to this link [here](https://gist.github.com/MarvNC/e601f3603df22f36ebd3102c501116c6).
 Once you have your Discord token, paste it into the file `token.txt` (don't forget to remove the placeholder in the file).
 And put your Discord username into the file `username.txt` (again, remove the placeholder in the file first).
+
+The last step is to install the required Python libraries by typing this command: `pip install -r requirements.txt`
 
 Now you should be good to go! Just open `discord-cli.py` and you should be able to use it without any problems.
 
