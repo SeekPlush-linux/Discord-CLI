@@ -1,5 +1,6 @@
 # Discord-CLI
 Discord CLI is a Discord command-line client made purely in Python.
+![image of Discord CLI](assets/discord-cli-image.png)
 
 It has the most necessary features for a usable Discord client, like:
 - Sending, replying, editing and deleting messages
@@ -7,6 +8,12 @@ It has the most necessary features for a usable Discord client, like:
 - changing your status indicator
 - ...and more!
 
+But unfortunately, there are a lot of cons currently, such as:
+- Selected channel doesn't automatically update messages
+- Not being able to see sent images (or at least the link to that image)
+- Difficult to switch betweeen channels and servers
+
+But I'm hoping to resolve those issues soon (maybe) :D
 ## Installation
 **To start using Discord CLI, you'll need to follow the instructions first.**
 
@@ -15,7 +22,7 @@ It has the most necessary features for a usable Discord client, like:
   2. Your Discord token
   3. Your Discord username
 
-But first, make sure to clone this repo, preferrably with the command `git clone` in the terminal.
+First, download the source code of Discord CLI by going into the "Releases" tab, download the latest version and extract it.
 
 Now, if you don't know already how to get your Discord token, go to this link [here](https://gist.github.com/MarvNC/e601f3603df22f36ebd3102c501116c6).
 Once you have your Discord token, paste it into the file `token.txt` (don't forget to remove the placeholder in the file).
@@ -25,9 +32,9 @@ The last step is to install the required Python libraries by typing this command
 
 Now you should be good to go! Just open `discord-cli.py` and you should be able to use it without any problems.
 
-But if you have any questions, bug reports, or really anything, make sure to DM me on Discord [here](https://discord.com/users/728655009759363191).
+If you have any questions, bug reports, or really anything, make sure to DM me on Discord [here](https://discord.com/users/728655009759363191).
 
 Anyways, have fun using Discord CLI!
 
 > [!WARNING]
-> Automated user accounts or "self-bots" are against Discord's TOS. <ins>**I am not responsible for any loss caused by Discord CLI.**</ins>
+> Automated user accounts or "self-bots" are against Discord's TOS. <ins>**I am not responsible for any loss and/or damages caused by Discord CLI.**</ins>
